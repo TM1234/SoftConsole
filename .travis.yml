@@ -1,0 +1,6 @@
+sudo: required
+
+language: generic
+
+script:
+- docker run -v ${TRAVIS_BUILD_DIR}:/projects antonkrug/softconsole-sch-slim sch
